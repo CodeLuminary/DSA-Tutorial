@@ -1,0 +1,45 @@
+Array = [1,2,3,6,8,9] O(n)
+
+LinkedList - Single and double LinkedList
+
+data1 <-> data2 <->data6 <-> data3 <-> data4
+
+            data1
+            /   \
+        data2   data3
+
+trie, graph 
+
+PROPERTIES OF BINARY
+1.) A binary tree must have only one root
+2.) Must have at most two children
+3.) Must have only one path from root node to any node.
+
+            data1
+            /   \
+        data2 -> data3
+
+USE CASES
+Use in AI
+Huffain uses binary tree for data compression
+SQL database uses B-tree for storing indexes(Primary keys)
+Routers uses binary tree for packet tracing
+Binary tree for sorting
+A sorted binary tree is a binary tree in which the left child is less than the parent node
+and the right node is greater than the parent node.
+
+                                A
+                              /    \
+                              B     C
+                            /   \     \
+                            D   E       F  
+                            /
+                            g 
+
+For Arrays, you loop
+The word traverse is used for traverse
+
+HOW TO TRAVERSE A tree
+1.) Depth First Search uses stack. Stack is LIFO
+2.) Breadth First Search uses queues. Queues if FIFO 
+
